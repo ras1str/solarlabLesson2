@@ -1,0 +1,68 @@
+.main-post__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    gap: 24px;
+}
+
+.main-post-element__img{
+    background-color: black;
+}
+
+.main-post-element__img img {
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.main-post-element__img img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+.main-post-element__name h5 {
+    
+    max-width: 300px;
+    padding-top: 8px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--light-blue-color);
+}
+
+.main-post-element__price p {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--dark-blue-color);
+}
+
+.main-post-element__address p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #64748B;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-post-element__date p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #64748B;
+}

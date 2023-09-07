@@ -1,0 +1,16 @@
+export type Root = Daum[]
+
+export interface Daum {
+  id: number
+  title: string
+  price: number
+  description: string
+  category: string
+  image: string
+  rating: Rating
+}
+
+export interface Rating {
+  rate: number
+  count: number
+}

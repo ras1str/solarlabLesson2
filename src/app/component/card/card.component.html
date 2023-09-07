@@ -1,0 +1,18 @@
+
+<div class="main-post__element">
+    <div class="main-post-element__img">
+        <img [src]="card.image" alt="">
+    </div>
+    <div class="main-post-element__name">
+        <h5>{{ card.title }}</h5>
+    </div>
+    <div class="main-post-element__price">
+        <p>{{ card.price | currency }}</p>
+    </div>
+    <div class="main-post-element__address">
+        <p>{{ card.description}}</p>
+    </div>
+    <div class="main-post-element__date">
+        <p>Сегодня 14:12</p>
+    </div>
+</div>
